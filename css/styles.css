@@ -1,22 +1,35 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: gray;
-  color: white;
+  background-image: url("james.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
 }
 
-.form-control {
-background-color: rgb(75, 75, 75);
-color: white
-}
+
+
+
+
+
 
 .btn {
   background-color: rgb(255, 208, 0);
 }
 
-.row {
+row {
   padding-left: 8%;
   align-self: center;
 }
 
 h1 {
-  color:aquamarine
+  float: center;
+  color:rgb(15, 158, 110)
+  
 }
+
+
+
