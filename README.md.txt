@@ -37,3 +37,42 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 Copyright (c) 2022 Tyler Emmerson(s)_
+
+Tests
+
+Test 1
+Describe: Take sentence and create a string
+
+Test: "It should return an string of numbers from 0 index to the user's inputted max length"
+Code: const beepBop = number.toString();
+console.log ('digitsToString: ', digitsToString);
+Expected Output: [0, 1, 2, 3, 4, 5]
+
+Test 2
+
+
+Describe: Take a string and create an array with .split
+
+Test: "It should return an array of numbers from 0 to the user's inputted number"
+Code: const beepBop = number.toString().split('');
+console.log ('digitsToStringSplit: ', digitsToStringSplit);
+Expected Output: [0, 1, 2, 3, 4, 5]
+
+Test: "It should take our array and remember the original insertion order of set keys.
+
+Describe: Take an array and use .map to allow for transforming the array with our new variable changes
+
+Test: "It should return an array of numbers from 0 to the user's inputted number"
+Code: const beepBop = number.toString().split('').map(number);
+console.log ('digitsToStringSplitMap: ', digitsToStringSplitMap);
+Expected Output: [0, 1, 2, 3, 4, 5]
+
+Test: "It should..." // this is the start of 2nd test for beepBoop()
+
+Describe: beep()
+
+Test: "It should return an array of numbers from 0 to the user's inputted number"
+Code: beepBoop(5);
+Input: 5
+Expected Output: "0", "Beep!", "Boop", "Won't you be my neighbor?", 4, 5
+
